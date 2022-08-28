@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biglietto Treno</title>
+    <script type="text/javascript" defer src="js/script.js"></script>
+</head>
+
+<body>
+    <!--CALC-->
+    <h1 class="text-center my-5 text-light">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+
+    <div class="container-info">
+
+        <div class="information  bg-white text-center container-xxl">
+
+            <div class=" py-5 row">
+
+                <div class="col-4">
+                    <h5>Nome e Cognome</h5>
+                    <input type="text" value="Marco Rossi" input />
+                </div>
+
+                <div class="col-4">
+                    <h5>Km da percorrere</h5>
+                    <input type="text" value="km" input />
+                </div>
+
+                <div class="col-4">
+                    <h5>Fascia d'età</h5>
+                    <select name="age" id="age">
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="Maggiorenne">Maggiorenne</option>
+                        <option value="Senior">Senior</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="button py-5">
+                <button class="rounded-pill">Genera</button>
+                <button class="rounded-pill">Annulla</button>
+            </div>
+
+
+        </div>
+        <div class="information"></div>
+        <div class="information"></div>
+    </div>
+
+
+
+
+    <!--TICKET-->
+    <h1 class="text-center my-5 text-light">IL TUO BIGLIETTO</h1>
+    <div class="bg-white container-xxl">
+        <div class="container-xl">
+            <h3 class="pt-5">DETTAGLIO PASSEGGERI</h3>
+            <hr class="text-dark">
+            <div>
+                <div class="d-flex">
+
+                    <div class="user pt-3 px-3">
+                        <h3>Nome Passeggero</h3>
+                        <h4>Jon Snow</h4>
+                    </div>
+                    <div class="ticket row mx-5">
+                        <div class="col-3">
+                            <p><strong>Offerta</strong></p>
+                            <p>Biglietto Standard</p>
+                        </div>
+                        <div class="col-3">
+                            <p><strong>Carrozza</strong></p>
+                            <p>5</p>
+                        </div>
+                        <div class="col-3">
+                            <p><strong>Codice CP</strong></p>
+                            <p>92911</p>
+                        </div>
+                        <div class="col-3">
+                            <p><strong>Costo biglietto</strong></p>
+                            <p>2.10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-dark y-5">
+        </div>
+    </div>
+
+</body>
+
+</html>

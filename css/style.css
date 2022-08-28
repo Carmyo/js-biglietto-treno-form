@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(338deg 80% 40%)
+}
+
+h5 {
+    color: hsl(338deg 80% 40%);
+}
+
+button {
+    color: hsl(338deg 80% 40%);
+    background-color: hsl(0deg 0% 80%);
+}
+
+.user {
+    background-color: gray;
+}
