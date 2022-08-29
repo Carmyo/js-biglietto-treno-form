@@ -19,6 +19,19 @@ document.getElementById('genera').addEventListener("click", function () {
         discount = (earlyprice / 100 * 40);
     };
 
+    /* 
+     switch (age) {
+        case "Minorenne": {
+            discount = (earlyprice / 100 * 20);
+            break;
+        }
+        case "Senior": {
+            discount = (earlyprice / 100 * 40);
+            break;
+        }
+    }
+    */
+
     console.log(discount);
     console.log(distance);
     const finalprice = earlyprice - discount;

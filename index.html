@@ -13,7 +13,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Biglietto Treno</title>
-    <script type="text/javascript" defer src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -29,12 +29,13 @@
 
                 <div class="col-4">
                     <h5>Nome e Cognome</h5>
-                    <input type="text" value="Marco Rossi" input />
+                    <input type="text" value="Marco Rossi" />
                 </div>
 
                 <div class="col-4">
                     <h5>Km da percorrere</h5>
-                    <input type="text" value="km" input />
+
+                    <input id="distance" type="number" value="km" />
                 </div>
 
                 <div class="col-4">
@@ -48,7 +49,8 @@
             </div>
 
             <div class="button py-5">
-                <button class="rounded-pill">Genera</button>
+                <input type="button" id="genera" class="rounded-pill" value="genera">
+
                 <button class="rounded-pill">Annulla</button>
             </div>
 
@@ -89,7 +91,7 @@
                         </div>
                         <div class="col-3">
                             <p><strong>Costo biglietto</strong></p>
-                            <p>2.10</p>
+                            <p id="price">--€</p>
                         </div>
                     </div>
                 </div>
